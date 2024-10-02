@@ -23,13 +23,13 @@ export const Contact = () => {
                     <div className='col-span-3 flex flex-col gap-y-5'>
                         <div className="flex flex-col items-center justify-center min-h-screen">
                             <form className="space-y-6 w-full max-w-lg">
-                                <div className="flex flex-col space-y-5 md:flex-row md:items-center md:space-x-5">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div className='flex flex-col text-left space-y-3'>
                                         <label htmlFor="text" className='text-black text-sm uppercase'>Name</label>
                                         <input
                                             type="text"
                                             placeholder="Enter your name..."
-                                            className="w-full text-sm border boder-gray-300 w-[350px] px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
+                                            className="w-full text-sm border boder-gray-300 px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
                                         />
                                     </div>
 
@@ -38,24 +38,24 @@ export const Contact = () => {
                                         <input
                                             type="email"
                                             placeholder="Your email address..."
-                                            className="w-full text-sm border boder-gray-300 w-[350px] px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
+                                            className="w-full text-sm border boder-gray-300 px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
                                         />
                                     </div>
                                 </div>
 
-                                <div className="flex flex-col space-y-5 md:flex-row md:items-center md:space-x-5">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div className='flex flex-col text-left space-y-3'>
                                         <label htmlFor="text" className='text-black text-sm uppercase'>Subject</label>
                                         <input
                                             type="text"
                                             placeholder="Enter subject..."
-                                            className="w-full text-sm border boder-gray-300 w-[350px] px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
+                                            className="w-full text-sm border boder-gray-300 px-5 py-4 rounded-xl bg-white text-black placeholder-gray-500"
                                         />
                                     </div>
 
                                     <div className='flex flex-col text-left space-y-3'>
                                         <label htmlFor="text" className='text-black text-sm uppercase'>Enquiry type</label>
-                                        <select name="" id="" className='w-[350px] text-gray-300 text-sm border border-gray-300 px-5 py-4 pr-10 rounded-xl bg-white text-black placeholder-gray-500 appearance-end'>
+                                        <select name="" id="" className='w-full text-gray-300 text-sm border border-gray-300 px-5 py-4 pr-10 rounded-xl bg-white text-black placeholder-gray-500 appearance-end'>
                                             <option value="" className=''>Advertising</option>
                                             <option value="">Advertising</option>
                                             <option value="">Advertising</option>
@@ -67,7 +67,7 @@ export const Contact = () => {
 
                                 <div className='flex flex-col text-left space-y-3'>
                                     <label htmlFor="text" className='text-black text-sm uppercase'>Messages</label>
-                                    <textarea placeholder="Enter your messages..." className="w-[350px] md:w-[720px] h-32 px-4 py-2 border border-gray-300 rounded-lg bg-white text-black placeholder-gray-500"></textarea>
+                                    <textarea placeholder="Enter your messages..." className="w-full h-32 px-4 py-2 border border-gray-300 rounded-lg bg-white text-black placeholder-gray-500"></textarea>
                                 </div>
 
                                 <div className='flex justify-start mt-10'>
