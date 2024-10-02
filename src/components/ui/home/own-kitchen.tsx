@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Kitchen = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mt-20 pr-10 pl-10'>
+        <div className='grid grid-cols-1 justify-center md:grid-cols-2 gap-20 mt-20 pr-10 pl-10'>
             <div className='flex flex-col justify-center space-y-8 text-left pl-10'>
                 <h1 className='font-bold text-4xl text-black'>Everyone can be a <br /> chef in their own kitchen</h1>
                 <p className='text-black text-wrap'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>

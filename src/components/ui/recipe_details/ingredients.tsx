@@ -11,7 +11,7 @@ export const Ingredients = () => {
 
     return (
 
-        <div className='mb-20 flex flex-col '>
+        <div className='mb-20 flex flex-col justify-center'>
             <div className='grid grid-cols-1 md:grid-cols-3 justify-center m-20'>
                 <div className='col-span-2 flex flex-col gap-y-5'>
                     <h1 className='text-black text-2xl font-bold'>Ingredients</h1>

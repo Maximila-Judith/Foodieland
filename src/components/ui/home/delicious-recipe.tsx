@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Delicious = () => {
     return (
-        <div className='flex flex-col items-center mt-20 gap-y-10'>
+        <div className='flex flex-col justify-center items-center mt-20 gap-y-10'>
 
             <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-80'>
                 <div className='font-bold text-4xl text-center text-black'>Try this delicious recipe <br /> to make your day</div>

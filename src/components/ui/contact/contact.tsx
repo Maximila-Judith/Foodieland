@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Contact = () => {
     return (
-        <div>
+        <div className='w-full justify-center'>
 
             <div className="relative gap-y-5 p-10 text-center flex flex-col items-center justify-center overflow-hidden">
                 <h2 className="text-5xl font-bold text-black z-10">Contact us</h2>

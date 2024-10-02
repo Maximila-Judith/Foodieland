@@ -5,7 +5,7 @@ export const Simple_tasty = () => {
     return (
         <div className='flex flex-col gap-y-20 mt-20'>
             <div className='flex flex-col items-center space-y-5'>
-                <h1 className='font-bold text-4xl text-black'>Simple and tasty recipes</h1>
+                <h1 className='font-bold text-4xl text-center text-black'>Simple and tasty recipes</h1>
                 <p className='text-gray-400 text-md text-center'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> labore et dolore magna aliqut enim ad minim </p>
             </div>
 

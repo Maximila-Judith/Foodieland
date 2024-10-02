@@ -13,7 +13,7 @@ export default function Page() {
     }
 
     return (
-        <div>
+        <div className='w-full justify-center'>
 
             <header className="w-full">
                 <div className="p-5 flex justify-between items-center">

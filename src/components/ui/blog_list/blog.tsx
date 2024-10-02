@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Blog = () => {
     return (
-        <div className=''>
+        <div className='w-full justify-center'>
 
             <div className="relative m-10 gap-y-5 p-10 text-center flex flex-col items-center justify-center overflow-hidden">
                 <h2 className="text-5xl font-bold text-black z-10">Blog & Article</h2>

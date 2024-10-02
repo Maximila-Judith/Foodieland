@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Health_japanese = () => {
     return (
-        <div className='mt-20 m-20 space-y-10'>
+        <div className='mt-20 m-20 justify-center space-y-10'>
 
             <div className='flex flex-col space-y-5 md:flex-row md:items-center md:justify-between'>
 
