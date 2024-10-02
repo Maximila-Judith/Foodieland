@@ -5,7 +5,7 @@ export const Checkout = () => {
     return (
         <div className='flex flex-col gap-y-20 bg-gradient-to-t from-[#E7F9FD] to-transparent justify-center mt-20 p-10 pb-40'>
             <div className='flex flex-col items-center space-y-5'>
-                <h1 className='font-bold text-4xl text-black'>Check out @foodieland on Instagram</h1>
+                <h1 className='font-bold text-4xl text-center text-black'>Check out @foodieland on Instagram</h1>
                 <p className='text-gray-400 text-md text-center'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
             </div>
 
@@ -47,7 +47,7 @@ export const Checkout = () => {
                             width={290}
                             height={290}
                             priority
-                            className="opacity-100"
+                            className="opacity-100 w-full"
                         />
                     </div>
 
@@ -131,7 +131,7 @@ export const Checkout = () => {
                             width={290}
                             height={290}
                             priority
-                            className="opacity-100"
+                            className="opacity-100 w-full"
                         />
                     </div>
 
@@ -215,7 +215,7 @@ export const Checkout = () => {
                             width={290}
                             height={290}
                             priority
-                            className="opacity-100"
+                            className="opacity-100 w-full"
                         />
                     </div>
 
@@ -299,7 +299,7 @@ export const Checkout = () => {
                             width={290}
                             height={290}
                             priority
-                            className="opacity-100"
+                            className="opacity-100 w-full"
                         />
                     </div>
 

@@ -37,7 +37,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>Crochet Projects for Noodle Lovers</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>Crochet Projects for Noodle Lovers</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -70,7 +70,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>10 Vegetarian Recipes To Eat This Month</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>10 Vegetarian Recipes To Eat This Month</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -136,7 +136,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>Simple & Delicious Vegetarian Lasagna</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>Simple & Delicious Vegetarian Lasagna</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -169,7 +169,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>Plantain and Pinto Stew with Aji Verde</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>Plantain and Pinto Stew with Aji Verde</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -202,7 +202,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>We&apos;re Hiring a Communications Assistant!</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>We&apos;re Hiring a Communications Assistant!</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -242,7 +242,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-1'>
-                                <h3 className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</h3>
+                                <a href='#' className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</a>
                                 <p className='text-sm text-gray-400'>By Andreas Paula</p>
                             </div>
                         </div>
@@ -257,7 +257,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-1'>
-                                <h3 className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</h3>
+                                <a href='#' className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</a>
                                 <p className='text-sm text-gray-400'>By Andreas Paula</p>
                             </div>
                         </div>
@@ -272,7 +272,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-1'>
-                                <h3 className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</h3>
+                                <a href='#' className='font-semibold text-[15px] text-black'>Chicken Meatball with Creamy Chees...</a>
                                 <p className='text-sm text-gray-400'>By Andreas Paula</p>
                             </div>
                         </div>

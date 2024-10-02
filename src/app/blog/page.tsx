@@ -72,11 +72,11 @@ export default function Page() {
 
                     <div className={`lg:w-2/3 w-full absolute lg:top-0 lg:right-0 sm:top-20 sm:left-0 sm:bg-white sm:shadow-lg md:shadow-none flex flex-col lg:flex-row justify-between lg:flex lg:relative items-center transition-all duration-300 ${open ? 'block' : 'hidden'}`} style={{ zIndex: 1000 }}>
                         <div className="flex flex-col lg:flex-row lg:space-x-4">
-                            <Link href="/" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:bg-gray-200">Home</Link>
-                            <Link href="/recipe" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:bg-gray-200">Recipes</Link>
-                            <Link href="/blog" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:bg-gray-200">Blog</Link>
-                            <Link href="/contact" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:bg-gray-200">Contact</Link>
-                            <Link href="/blog_post" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:bg-gray-200">About us</Link>
+                            <Link href="/" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:border-b-2 hover:border-gray-200">Home</Link>
+                            <Link href="/recipe" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:border-b-2 hover:border-gray-200">Recipes</Link>
+                            <Link href="/blog" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:border-b-2 hover:border-gray-200">Blog</Link>
+                            <Link href="/contact" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:border-b-2 hover:border-gray-200">Contact</Link>
+                            <Link href="/blog_post" onClick={toggleMenu} className="px-4 py-2 text-black font-semibold hover:border-b-2 hover:border-gray-200">About us</Link>
                         </div>
 
                         <div className="flex flex-row space-x-4 p-2">
