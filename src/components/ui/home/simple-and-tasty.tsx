@@ -201,7 +201,7 @@ export const Simple_tasty = () => {
                 </div>
 
                 <div className="relative flex flex-col items-center bg-cover bg-center bg-no-repeat pl-4 pr-4 pt-5 mt-5" style={{ backgroundImage: "url('/Images/Mask Group.png')" }}>
-                    <h1 className='text-white text-center text-3xl text-bold italic font-lobster'>Don't forget to eat <br /> healthy food</h1>
+                    <h1 className='text-white text-center text-3xl text-bold italic font-lobster'>Don&apos;t forget to eat <br /> healthy food</h1>
                     <Image
                         src="/Images/01.png"
                         alt="icon 1"

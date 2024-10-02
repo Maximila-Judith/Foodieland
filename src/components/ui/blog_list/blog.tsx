@@ -27,7 +27,7 @@ export const Blog = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 justify-center m-10'>
                 <div className='col-span-2 flex flex-col gap-y-5'>
                     <div className='grid grid-rows-3 gap-8 w-[95%]'>
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image 26 (7).png"
                                 alt="icon 1"
@@ -60,7 +60,7 @@ export const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image 26.png"
                                 alt="icon 1"
@@ -93,7 +93,7 @@ export const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image1.png"
                                 alt="icon 1"
@@ -103,7 +103,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>Full Guide to Becoming a Professional Chef</h3>
+                                <a href='/blog_post' className='font-semibold text-[18px] text-black'>Full Guide to Becoming a Professional Chef</a>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -126,7 +126,7 @@ export const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image 2.png"
                                 alt="icon 1"
@@ -159,7 +159,7 @@ export const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image 3.png"
                                 alt="icon 1"
@@ -192,7 +192,7 @@ export const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col md:flex-rows md:items-center space-y-5 md:space-x-10'>
+                        <div className='flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10'>
                             <Image
                                 src="/Images/image 4.png"
                                 alt="icon 1"
@@ -202,7 +202,7 @@ export const Blog = () => {
                                 className="opacity-100 rounded-2xl"
                             />
                             <div className='flex flex-col space-y-4'>
-                                <h3 className='font-semibold text-[18px] text-black'>We’re Hiring a Communications Assistant!</h3>
+                                <h3 className='font-semibold text-[18px] text-black'>We&apos;re Hiring a Communications Assistant!</h3>
                                 <p className='text-sm text-gray-400'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim </p>
                                 <div className='flex flex-rows items-center space-x-5'>
                                     <Image
@@ -279,7 +279,7 @@ export const Blog = () => {
                     </div>
 
                     <div className="relative flex flex-col items-center bg-cover bg-center bg-no-repeat pl-4 pr-4 pt-5 mt-5" style={{ backgroundImage: "url('/Images/Mask Group.png')" }}>
-                        <h1 className='text-white text-center text-3xl text-bold italic font-lobster'>Don't forget to eat <br /> healthy food</h1>
+                        <h1 className='text-white text-center text-3xl text-bold italic font-lobster'>Don&apos;t forget to eat <br /> healthy food</h1>
                         <Image
                             src="/Images/01.png"
                             alt="icon 1"
