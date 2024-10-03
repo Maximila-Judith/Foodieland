@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Blog_post = () => {
     return (
-        <div className='mt-10 mb-20 w-full justify-center'>
+        <div className='mt-10 mb-20 justify-center'>
 
             <div className="relative m-10 gap-y-5 p-10 text-center flex flex-col items-center justify-center overflow-hidden">
                 <h2 className="text-5xl font-bold text-black z-10">Full Guide to Becoming a Professional Chef</h2>

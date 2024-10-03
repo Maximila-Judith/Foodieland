@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   return (
-    <div className=" w-full justify-center m-20">
+    <div className=" w-full justify-center">
       <header className="w-full">
         <div className="p-5 flex justify-between items-center">
 

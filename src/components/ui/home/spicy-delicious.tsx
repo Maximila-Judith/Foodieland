@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Spicy_delicious = () => {
     return (
-        <div className='w-full h-full flex flex-row justify-center pl-10 '>
+        <div className='w-[1280px] h-full flex flex-row justify-center pl-10 '>
             <div className='w-1/2 bg-[#E7F9FD] border border-[#E7F9FD] rounded-l-[40px] relative flex flex-col md:flex-rows gap-y-8 pt-10 pb-10 pl-10 pr-5'>
                 <button className='flex flex-row items-center space-x-2 bg-white text-black border border-white rounded-full w-[150px] p-2 text-black mt-2'>
                     <Image
