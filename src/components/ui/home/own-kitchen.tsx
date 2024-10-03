@@ -4,10 +4,10 @@ import React from 'react'
 export const Kitchen = () => {
     return (
         <div className='w-full grid grid-cols-1 justify-center md:grid-cols-2 mt-20 '>
-            <div className='w-full h-full flex flex-col justify-center space-y-8 text-left'>
-                <h1 className='font-bold text-4xl text-black'>Everyone can be a <br /> chef in their own kitchen</h1>
-                <p className='text-black text-wrap'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-                <button className='w-[150px] p-3 mt-10 border rounded-xl bg-black text-white'>Learn More</button>
+            <div className='w-full h-full flex flex-col justify-center space-y-8'>
+                <h1 className='font-bold text-8xl text-black'>Everyone can be a <br /> chef in their own kitchen</h1>
+                <p className='text-black text-3xl'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                <button className='w-[250px] p-3 mt-10 border rounded-xl bg-black text-white'>Learn More</button>
             </div>
 
             <div className='w-full justify-center relative bg-gradient-to-t from-[#E7F9FD] to-transparent rounded-3xl'>
@@ -26,7 +26,7 @@ export const Kitchen = () => {
                     width={80}
                     height={80}
                     priority
-                    className="opacity-100 absolute top-[30px] md:top-[70px] left-[50px]"
+                    className="opacity-100 absolute top-[30px] md:top-[150px] left-[130px]"
                 />
 
                 <Image
@@ -35,7 +35,7 @@ export const Kitchen = () => {
                     width={50}
                     height={50}
                     priority
-                    className="opacity-100 absolute top-[70px] left-[300px] md:left-[430px]"
+                    className="opacity-100 absolute top-[150px] left-[300px] md:left-[630px]"
                 />
 
                 <Image
@@ -44,7 +44,7 @@ export const Kitchen = () => {
                     width={80}
                     height={80}
                     priority
-                    className="opacity-100 absolute top-[150px] left-[350px] md:left-[490px]"
+                    className="opacity-100 absolute top-[250px] left-[350px] md:left-[790px]"
                 />
 
                 <Image
@@ -53,7 +53,7 @@ export const Kitchen = () => {
                     width={50}
                     height={50}
                     priority
-                    className="opacity-100 absolute top-[250px] md:top-[390px] -left-[20px]"
+                    className="opacity-100 absolute top-[250px] md:top-[690px] -left-[20px]"
                 />
             </div>
         </div>

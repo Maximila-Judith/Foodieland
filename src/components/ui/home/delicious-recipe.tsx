@@ -5,7 +5,7 @@ export const Delicious = () => {
     return (
         <div className='w-full flex flex-col justify-center items-center mt-20 gap-y-10'>
 
-            <div className=' grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-80'>
+            <div className=' grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-10 md:gap-80'>
                 <div className='font-bold text-4xl text-center text-black'>Try this delicious recipe <br /> to make your day</div>
                 <div className='text-sm text-gray-500'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqut enim ad minim </div>
             </div>
