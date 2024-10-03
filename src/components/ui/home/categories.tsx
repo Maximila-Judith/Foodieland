@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Categories = () => {
     return (
-        <div className='w-full flex flex-col justify-center gap-y-20 mt-20 p-10'>
+        <div className='w-full flex flex-col justify-center gap-y-20 mt-20'>
             <div className='flex flex-row items-center justify-between pr-5 pl-2'>
                 <h1 className='font-bold text-4xl text-black'>Categories</h1>
                 <button className='flex flex-rows items-center space-x-4 p-3 capitalize rounded-xl bg-[#E7F9FD] text-black'>

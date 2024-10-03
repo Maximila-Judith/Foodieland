@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <main>{children}</main>
 
-        <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 mx-auto">
+        <footer className="mt-auto w-full py-10 px-4 sm:px-6 mx-auto">
           <div className="flex lg:flex-row flex-col items-center justify-between gap-6 mb-5">
             <div className="col-span-full lg:col-span-2 space-y-5">
               <a className="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 dark:text-black" href="#" aria-label="Brand">

@@ -3,13 +3,13 @@ import React from 'react'
 
 export const Checkout = () => {
     return (
-        <div className='flex flex-col gap-y-20 bg-gradient-to-t from-[#E7F9FD] to-transparent justify-center mt-20 p-10 pb-40'>
+        <div className='w-full flex flex-col gap-y-20 bg-gradient-to-t from-[#E7F9FD] to-transparent justify-center mt-20 pb-40'>
             <div className='flex flex-col items-center space-y-5'>
                 <h1 className='font-bold text-4xl text-center text-black'>Check out @foodieland on Instagram</h1>
                 <p className='text-gray-400 text-md text-center'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
             </div>
 
-            <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10'>
+            <div className='w-full grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10'>
                 <div className='bg-white'>
                     <div className='flex flex-rows bg-white items-center justify-between p-2'>
                         <div className='flex flex-rows items-center space-x-3'>
