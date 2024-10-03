@@ -221,7 +221,7 @@ export const Simple_tasty = () => {
                         width={368}
                         height={250}
                         priority
-                        className="opacity-100 rounded-xl"
+                        className="opacity-100 rounded-xl w-full"
                     />
                     <h1 className='text-black text-xl text-bold'>Fruity Pancake with Orange & Blueberry</h1>
                     <div className='flex flex-rows items-center space-x-5'>

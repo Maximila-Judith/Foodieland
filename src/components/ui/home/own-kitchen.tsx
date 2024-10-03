@@ -4,7 +4,7 @@ import React from 'react'
 export const Kitchen = () => {
     return (
         <div className='w-full grid grid-cols-1 justify-center md:grid-cols-2 mt-20 '>
-            <div className='w-full flex flex-col justify-center space-y-8 text-left pl-10'>
+            <div className='w-full h-full flex flex-col justify-center space-y-8 text-left'>
                 <h1 className='font-bold text-4xl text-black'>Everyone can be a <br /> chef in their own kitchen</h1>
                 <p className='text-black text-wrap'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                 <button className='w-[150px] p-3 mt-10 border rounded-xl bg-black text-white'>Learn More</button>
