@@ -15,6 +15,14 @@ const config: Config = {
       fontFamily: {
         lobster: ['Lobster', 'serif'],
       },
+      screens: {
+        '3xl': '3840px',
+      },
+      fontSize: {
+        '10xl': '8rem',
+        '11xl': '9rem',
+        // Ajoute d'autres tailles si nécessaire
+      },
     },
   },
   plugins: [],
